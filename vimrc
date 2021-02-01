@@ -3,7 +3,7 @@ ctags -R --C-kinds=+p --fields=+aS --extra=+q
 ctags -R --c++-kinds=+p --fields=+iaS --extra=+q 
 
 
-pt=menu,menuone
+set completeopt=menu,menuone
 let OmniCpp_MayCompleteDot=1
 let OmniCpp_MayCompleteArrow=1
 let OmniCpp_MayCompleteScope=1
